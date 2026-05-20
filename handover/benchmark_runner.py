@@ -2,7 +2,6 @@
 #
 # Licensed under the BSD 3-Clause License [see LICENSE for details].
 
-import gym
 import os
 import functools
 import time
@@ -11,6 +10,7 @@ import numpy as np
 
 from datetime import datetime
 
+from handover.gym_compat import gym
 from handover.benchmark_wrapper import EpisodeStatus, HandoverBenchmarkWrapper
 
 

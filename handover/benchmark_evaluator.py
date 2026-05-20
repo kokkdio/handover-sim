@@ -3,7 +3,6 @@
 # Licensed under the BSD 3-Clause License [see LICENSE for details].
 
 import os
-import gym
 import logging
 import sys
 import glob
@@ -13,6 +12,7 @@ import itertools
 from tabulate import tabulate
 
 from handover.config import get_cfg
+from handover.gym_compat import gym
 from handover.benchmark_wrapper import EpisodeStatus, HandoverBenchmarkWrapper
 
 

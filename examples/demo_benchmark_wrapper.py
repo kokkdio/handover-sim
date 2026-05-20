@@ -3,10 +3,10 @@
 # Licensed under the BSD 3-Clause License [see LICENSE for details].
 
 import abc
-import gym
 import numpy as np
 import pybullet
 
+from handover.gym_compat import gym
 from handover.config import get_config_from_args
 from handover.benchmark_wrapper import HandoverBenchmarkWrapper
 
