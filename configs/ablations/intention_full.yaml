@@ -1,0 +1,9 @@
+description: "Full intention trajectory prediction config."
+script: predict_human_trajectory
+params:
+  idx: 0
+  sample_every: 10
+  max_steps: 4000
+  history: 16
+  horizon: 24
+  out: results/trajectories/intention_full/human_prediction

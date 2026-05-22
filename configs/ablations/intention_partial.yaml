@@ -1,0 +1,9 @@
+description: "Partial intention trajectory prediction config."
+script: predict_human_trajectory
+params:
+  idx: 0
+  sample_every: 10
+  max_steps: 4000
+  history: 8
+  horizon: 12
+  out: results/trajectories/intention_partial/human_prediction

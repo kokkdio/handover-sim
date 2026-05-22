@@ -1,0 +1,8 @@
+description: "Baseline trajectory recording config."
+script: record_trajectory
+params:
+  idx: 1
+  sample_every: 10
+  max_steps: 4000
+  out: results/trajectories/baseline/trajectory
+  random_robot_action: false
